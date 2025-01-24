@@ -1,0 +1,54 @@
+body{
+    display: flex;  /* bez tego nie będzie działać wyśrodkowanie; flex->elastycznie*/
+    align-items: center;    /*wyśrodkowuje w pionie */
+    justify-content: center;  
+}
+.menu {
+    width: 80vw;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.group-btn {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.group-btn:hover {
+    background-color: #ddd;
+}
+
+.sub-menu {
+    display: none;
+    padding-left: 20px;
+}
+
+.sub-menu li {
+    padding: 5px 0;
+}
+
+.sub-menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sub-menu li a:hover {
+    color: #007bff;
+}

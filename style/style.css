@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right top, hwb(207 79% 0%), hsl(224, 100%, 97%));
+    font-family:'Times New Roman', Times, serif;
+    background-attachment: fixed;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+li a:hover {
+    color: #007bff;
+}

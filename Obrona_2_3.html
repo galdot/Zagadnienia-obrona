@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/zagadnienia.css">
+    <title>Obrona IMED</title>
+</head>
+<body>
+    <li><a href="menu.html">Menu</a></li>
+    <h1>2.3. Ochrona przeciwporażeniowa w instalacjach i sieciach niskiego napięcia</h1>
+    <p>Napięcia dopuszczalne
+        <ol>
+        <li>W warunkach środowiskowych normalnych:</li>
+            <ul>
+                <li>50 V dla prądu przemiennego</li>
+                <li>120 V dla prądu stałego</li>
+            </ul>
+        <li>W warunkach środowiskowych 0 zwiększonym zagrożeniu:</li>
+            <ul>
+                <li>25 V dla przłdu przemiennego</li>
+                <li>60 V dla prądu stałego.</li>
+            </ul>
+        <li>W warunkach złôiększonego zagrożenia porażeniem prądem elektrycznym, jakie możenastąpić przy zetknięciu się ciała ludzkiego zanurzonego w wodzie z elementami znajdującymi się pod napięciem:</li>
+        <ul>
+            <li>12 V dla prądu przemiennego</li>
+            <li>30 V dla prądu stałego.</li>
+        </ul></ol>
+    </p>
+    <h2>Stopnie ochrony przeciwporażeniowej:</h2>
+    <li><a href="#p">1. Ochrona podstawowa (ochrona przed dotykiem bezpośrednim)</a></li>
+    <li><a href="#d">2. Ochrona dodatkowa (ochrona przy uszkodzeniu - ochrona przy dotyku pośrednim)</a></li>
+    <li><a href="#t">3. Ochrona uzupełniająca (ochronę podstawową lub/i ochronę dodatkową)</a></li>
+</br>
+
+    <div class="z" id="p"><a name="p"><h3>Ochrona przeciwporażeniowa podstawowa:</h3></a>   
+        <ul><li>Izolowanie części czynnych
+            <ul>
+                <li>Części czynne powinny być w całości pokryte izolacją, która może być usunięta jedynie przez jej zniszczenie</li>
+                <li>Izolacja winna spełniać wymagania odpowiednich norm dotyczących tych urządzeń elektrycznych, w których jest zastosowana</li>
+            </ul>
+        </li>
+        <li>Przegrody lub obudowy
+            <ul>
+                <li>Przeznaczone do zapobiegania jakiemukolwiek dotknięciu części czynnych</li>
+                <li>Zapewnienie stopnia ochrony min. IP2X a dladostępnych górnych poziomych powierzchni min. IP4X (za wjątkiem wymiany części - informacja)</li>
+                <li>Odpowiednia wytrzymałość</li>
+                <li>Usunięcie tylko przy użyciu klucza lub innego narzędzia lub po wyłączeniu zasilanias</li>
+            </ul>
+        </li>
+        <li>Bariery, przeszkody
+            <ul>
+                <li>Zabezpieczają przed przypadkowym (lecz nie przed zamierzonym) do części czynnych
+                <li>Powinny uniemożliwić niezamierzone dotkniecie części czynnych</li>
+                <li>Mogą być usuwane bez użycia lecz winny być zabezpieczone przed niezamierzonym usunięciem</li>
+            </ul>
+        </li>
+        <li>Umieszczenie poza zasięgiem ręki</li>
+    </div>
+        
+    <div class="z" id="d"><a name="d"><h3>Ochrona dodatkowa</h3></a>
+        <ul>Do powszechnego stosowania
+            <li>samoczynne vlączenie zasilania (wymaga użycia przewodu ochronnego PE),
+                <ul>
+                    <li>Urządzenie ochronne powinno samoczynnie "łączyć zasilanie chronionego obwodu lub urządzenia w taki sposób, aby w następstwie zwarcia między częścią czynną z częścią przewodzącą dostępną spodziewane napięcie dotykowe przekraczające 50V AC lub 120V DC było wyłączone tak szybko, Żeby nie wystąpiły (przy dotyku) niebezpieczne skutki patofizjologiczne dla człowieka</li>
+                    <li>Dostępne części przewodzące powinny być połączone z przewodem ochronnym</li>
+                </ul>
+            </li>
+            <li>izolacja podwójna, izolacja wzmocniona, ochronna osłona izolacyjna,</li>
+            <li>separacja elektryczna obwodu pojedynczego odbiornika,</li>
+            <li>napięcie bardzo niskie ze źródła bezpiecznego (SEW oraz PELV).</li>
+        </ul>
+        <ul>Do stosowania w ograniczonym zakresie
+            <li>środowisko nieprzewodzące (izolowanie stanowiska),</li>
+            <li>nieuziemione połączenia wyrównawcze miejscowe,
+                <ul>
+                    <li>Przewody połączeń wyrównawczych powinny łączyć ze sobą wszystkie części przewodzące jednocześnie dostępne i części przewodzące obce</li>
+                    <li>System połączeń wyrównawczych nie powinien mieć połączenia elektrycznego z ziemią</li>
+                    <li>Należy przewidzieć środki ostrożności zapobiegające narażeniu osób wchodzących na stanowisko, szczególnie gdy przewodząca podłoga połączona jest z systemem połączeń wyrównawczych</li>
+                </ul>
+            </li>
+            <li>separacja elektryczna dla zasilania więcej niż jednego odbiornika</li>
+        </ul>
+    </div>
+    <div class="z" id="t"><a name="t"><h3>Ochrona uzupełniająca</h3></a>
+    <p>Ochrona uzupełniająca ochronę podstawową (ochrona uzupełniająca przed dotykiem bezpośrednim) polega na zainstalowaniu w obwodzie chronionym włącznika różnicowoprądowego wsokoczulego o prądzie wyzwalającym IAn nie większym od 30mA.</p>
+    <p>Ochrona uzupełniająca ochronę przy uszkodzeniu (ochrona uzupełniająca przy dotyku pośrednim), polega na wykonaniu ochronnych połączeń wyrównawczych dodatkowych (miejscowych). Ich rola polega na ograniczeniu długotrwale utrzymującego się napięcia dotykowego do poziomu dopuszczalnego.</p></div>
+    
+</body>
+</html>

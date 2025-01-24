@@ -1,0 +1,15 @@
+.z{
+    width: 80vw;
+    background: linear-gradient(
+        to right bottom, 
+        rgb(255,255,255, 0.7), 
+        rgb(255,255,255, 0.3)
+        ); /* ostatnia wartość to stopień przezroczystości */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; /* Ustawienie elementów jeden pod drugim */
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1vw;
+    padding: 0 5vw;
+}
